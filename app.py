@@ -1,7 +1,7 @@
 import streamlit as st
 from anthropic import Anthropic
 
-MODEL = "claude-3-5-sonnet-20241022"
+MODEL = "claude-3-5-haiku-20241022"
 SYSTEM_PROMPT = """You are a Legal Domain AI Assistant for enterprise legal operations. Specialize in contract analysis, NDA review, GDPR/HIPAA/SOX compliance, vendor risk assessment, and legal document generation. Always structure output as:
 
 ## Executive Summary
